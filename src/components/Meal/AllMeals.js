@@ -30,11 +30,13 @@ const DUMMY_MEALS = [
 
 const AllMeals = (props) => {
     return (
-        <ul>
+      <div className={classes['all-meals']}>
+        <ul className={classes['unorder-list']}>
             {DUMMY_MEALS.map((item)=>{
                 return <li key={item.id}>{item.name}</li>
             })}
         </ul>
+      </div>
     );
 }
 export default AllMeals;
