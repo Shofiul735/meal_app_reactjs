@@ -8,8 +8,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10000;
 }
 .logo{
     color: white;
     font-weight: 900;
+}
+.image{
+    width: 100%;
+    overflow: hidden;
+}
+.image img{
+    width: 110%;
+    object-fit: cover;
+    max-height: 350px;
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
