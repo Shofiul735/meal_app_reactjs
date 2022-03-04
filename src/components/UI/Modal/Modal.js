@@ -21,3 +21,4 @@ const Modal = (props) => {
         {createPortal(<ModalOverlay>{props.children}</ModalOverlay>,portalElement)}
     </Fragment>
 }
+export default Modal;
