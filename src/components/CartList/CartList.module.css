@@ -1,0 +1,28 @@
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.btn{
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1.5px solid rgb(148, 69, 5);
+    font-weight: bolder;
+}
+.order{
+    background-color: rgb(148, 69, 5);
+    color: #fff;
+    transition: all .2s ease;
+}
+.order:hover{
+    background-color: rgb(121, 57, 4);
+}
+.cancel{
+    transition: all .2s ease;
+}
+
+.cancel:hover{
+    background-color: rgb(121, 57, 4);
+    color: #fff;
+}
