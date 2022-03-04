@@ -17,11 +17,11 @@ const CartList = (props) => {
         onAdd={context.addItem.bind(null,item)}
         onRemove = {context.removeItem.bind(null,item.id)}
     />);
-    return <Modal>
+    return <Modal onRemoveCart={props.onRemoveCart}>
         {list}
         <div className={classes['button']}>
-            <button className={`${classes['btn']} ${classes['order']}`}>Order</button>
-            <button className={`${classes['btn']} ${classes['cancel']}`}>Cancel</button>
+            <button onClick={props.onRemoveCart} className={`${classes['btn']} ${classes['order']}`}>Order</button>
+            <button onClick={props.onRemoveCart} className={`${classes['btn']} ${classes['cancel']}`}>Cancel</button>
         </div>
     </Modal>
 

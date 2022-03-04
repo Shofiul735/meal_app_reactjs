@@ -20,7 +20,7 @@ const HeaderButton = (props) => {
     },[items]);
 
     return (
-        <button className={classes['button']}>
+        <button onClick={props.onShowCart} className={classes['button']}>
             <span className={classes['cart']}>Your Cart</span>
             <span className={buttonClass}>{totalItem}</span>
         </button>
