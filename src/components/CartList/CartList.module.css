@@ -31,3 +31,12 @@
     max-height: 350px;
     overflow: scroll;
 }
+.total-price{
+    display: flex;
+    justify-content: space-between;
+}
+.total-price p{
+    font-size: 22px;
+    color: #8a2b06;
+    font-weight: bold;
+}

@@ -22,6 +22,10 @@ const CartList = (props) => {
   return (
     <Modal onRemoveCart={props.onRemoveCart}>
       <div className={classes['cart-list']}>{list}</div>
+      <div className={classes['total-price']}>
+        <h1>Total:</h1>
+        <p>${context.totalAmount.toFixed(2)}</p>
+      </div>
       <div className={classes["button"]}>
         <button
           onClick={props.onRemoveCart}
