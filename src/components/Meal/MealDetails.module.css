@@ -26,6 +26,11 @@
     padding: 3px 7px;
     text-align: left;
 }
+
+.button-control{
+    position: relative;
+}
+
 .button{
     padding: 10px 20px;
     background-color: #cc4b18;
@@ -33,9 +38,12 @@
     display: block;
     border: 1px solid #cc4b18;
     border-radius: 10px;
+    font-weight: bolder;
     cursor: pointer;
     margin-top: 10px;
     transition: all .3s ease-in;
+    position: absolute;
+    right: 0;
 }
 .button:hover{
     background-color: #aa3608;

@@ -15,7 +15,7 @@ const MealDetails = (props) => {
         <p className={classes['description']}>{props.description}</p>
         <strong className={classes['price']}>${props.price}</strong>
       </div>
-      <div>
+      <div className={classes['button-control']}>
         <span className={classes['amount']}>Amount</span>
         <span className={classes['amount-number']}>{count}</span>
         <button onClick={()=>context.addItem({
