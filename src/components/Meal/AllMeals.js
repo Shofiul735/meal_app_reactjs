@@ -34,10 +34,12 @@ const AllMeals = (props) => {
     <div className={classes["all-meals"]}>
       <ul className={classes["unorder-list"]}>
         {DUMMY_MEALS.map((item) => {
+          {console.log(item)}
           return (
             <li key={item.id}>
               <Card>
                 <MealDetails
+                  id={item.id}
                   name={item.name}
                   description={item.description}
                   price={item.price}
