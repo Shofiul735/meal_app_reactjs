@@ -1,0 +1,46 @@
+.cart{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #8a2b06;
+}
+.name{
+    font-weight: bold;
+    color: black;
+}
+.price{
+    color: #8a2b06;
+    display: inline-block;
+    margin-right: 10px;
+}
+.count{
+    font-weight: bold;
+    border: 1px solid #8a2b06;
+    padding: 5px;
+}
+.btn{
+    padding: 10px 25px;
+    font-size: 25px;
+    border: 1px solid #8a2b06;
+    margin: 0 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.add{
+    background-color: #8a2b06;
+    color: white;
+}
+
+.add:hover{
+    background-color: #c03c08;
+}
+
+.remove{
+    background-color: wheat;
+    color: black;
+}
+.remove:hover{
+    background-color: #8a2b06;
+    color: white;
+}
